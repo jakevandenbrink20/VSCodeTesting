@@ -3,9 +3,10 @@ from icecream import ic
 # x = input("Enter input: ")
 # print(x)
 
+print("\n\n")
+
 print("#00BCD4")
 print("#103C24")
-print("Hi")
 
 
 def myPrintFunction(arg):
@@ -18,4 +19,7 @@ myPrintFunction("Hello World")
 print("\n")
 
 ic("Testing icecream module")
+
+print("_"*100)
+
 ic(myPrintFunction("Icecream function"))
